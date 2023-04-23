@@ -1,0 +1,3 @@
+/etc/ofono/ril_subscription.conf
+/etc/phosh/phoc.ini
+/etc/udev/rules.d/70-exynos7880.rules

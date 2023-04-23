@@ -1,0 +1,7 @@
+5b64a6fae50ac192eaca42b7f48b320f  usr/lib/adaptation-samsung-a5y17lte/sources.list.d/a5y17lte.list
+ebf77f5807db4b26a50066f8a2c3d722  usr/lib/adaptation-samsung-a5y17lte/trusted.gpg.d/community-samsung-a5y17lte.gpg
+6c44a9177198e06ffa2f4c8c5666c56d  usr/lib/droid-system-overlay/etc/init/init.disabled.rc
+1d49a73fada654c326e4a69b787ed488  usr/share/doc/adaptation-samsung-a5y17lte-configs/changelog.gz
+843535788e212eff38580780d23039ca  usr/share/doc/adaptation-samsung-a5y17lte-configs/copyright
+ebf77f5807db4b26a50066f8a2c3d722  usr/share/keyrings/a5y17lte.gpg
+959c265e3d122a585e03654052a41056  var/lib/lxc/android/pre-start.d/00-device-oerlay.sh
