@@ -1,30 +1,32 @@
 Package: adaptation-samsung-a5y17lte
-Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
-Architecture: arm64
-Maintainer: aymanrgab <aymanrar2c@gmail.com>
+Priority: optional
+Section: metapackages
 Installed-Size: 9
+Maintainer: aymanrgab <aymanrar2c@gmail.com>
+Architecture: arm64
+Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
 Depends: adaptation-hybris-api29-phone, adaptation-samsung-a5y17lte-configs (= 0.0.0+git20230423171904.cfa1bf9.bookworm)
-Filename: ./adaptation-samsung-a5y17lte_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
+Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
 Size: 2124
 MD5sum: 557d3f85250e7676a013edb241d5a368
 SHA1: 94308c013486b65df8e293f3905872276400154d
 SHA256: 3487466a60f30312ea3a159ddff000b1e3bd9fda74ffdc8d7c1e9fe81387f8fb
-Section: metapackages
-Priority: optional
+SHA512: 0870fed4c36f390362e03b0197c0c595b8c2c8153dd176f9ca31241a0b0a1558ce7ad6dff6888f0a0428abfb0b13d76fd0868bea86a2752b01a3eaddd158adf6
 Description: Community adaptation for samsung-a5y17lte - metapackage
 
 Package: adaptation-samsung-a5y17lte-configs
+Priority: optional
+Section: metapackages
+Installed-Size: 60
+Maintainer: aymanrgab <aymanrar2c@gmail.com>
+Architecture: arm64
 Source: adaptation-samsung-a5y17lte
 Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
-Architecture: arm64
-Maintainer: aymanrgab <aymanrar2c@gmail.com>
-Installed-Size: 60
-Filename: ./adaptation-samsung-a5y17lte-configs_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
+Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte-configs_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
 Size: 6224
 MD5sum: 096b2a6f40b1e320a532534b9a38a284
 SHA1: 9afb3923a4bbe1928526bbb3e3602b13cfa5a84f
 SHA256: da4edbb89b67abd3bb141df7b581c7e82c13db600553651a0941028ec2f1531f
-Section: metapackages
-Priority: optional
+SHA512: 9a865e2b25a8e83facb08d026e3eb54f99461830dea0ef1c6e102d649634bca5ebdbc88c2910e8651e7461344a4393733d4a8708700ec768e98841f97f11e178
 Description: Community adaptation for samsung-a5y17lte - adaptation configurations
 
