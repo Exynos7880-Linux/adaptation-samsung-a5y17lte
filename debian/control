@@ -1,0 +1,19 @@
+Source: adaptation-samsung-a5y17lte
+Maintainer: aymanrgab <aymanrar2c@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-samsung-a5y17lte
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api29-phone,
+         adaptation-samsung-a5y17lte-configs (= ${binary:Version}),
+Description: Community adaptation for samsung-a5y17lte - metapackage
+
+Package: adaptation-samsung-a5y17lte-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for samsung-a5y17lte - adaptation configurations

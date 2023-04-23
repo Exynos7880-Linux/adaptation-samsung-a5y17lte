@@ -1,0 +1,2 @@
+/usr/lib/adaptation-samsung-a5y17lte/sources.list.d/community-samsung-a5y17lte.list /etc/apt/sources.list.d/community-samsung-a5y17lte.list
+/usr/lib/adaptation-samsung-a5y17lte/trusted.gpg.d/community-samsung-a5y17lte.gpg /etc/apt/trusted.gpg.d/community-samsung-a5y17lte.gpg
