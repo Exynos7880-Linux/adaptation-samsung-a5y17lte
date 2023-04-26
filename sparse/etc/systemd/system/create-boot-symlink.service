@@ -1,0 +1,9 @@
+[Unit]
+Description=Create symbolic link for /dev/disk/by-partlabel/BOOT to /dev/disk/by-partlabel/boot
+
+[Service]
+Type=oneshot
+ExecStart=/bin/ln -sf /dev/disk/by-partlabel/BOOT /dev/disk/by-partlabel/boot
+
+[Install]
+WantedBy=multi-user.target
