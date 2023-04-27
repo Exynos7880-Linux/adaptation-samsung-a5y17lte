@@ -1,4 +1,3 @@
 /etc/ofono/ril_subscription.d/exynos7880.conf
 /etc/phosh/phoc.ini
-/etc/systemd/system/create-boot-symlink.service
 /etc/udev/rules.d/70-exynos7880.rules

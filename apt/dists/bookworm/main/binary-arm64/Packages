@@ -17,17 +17,17 @@ Description: Community adaptation for samsung-a5y17lte - metapackage
 Package: adaptation-samsung-a5y17lte-configs
 Priority: optional
 Section: metapackages
-Installed-Size: 62
+Installed-Size: 64
 Maintainer: aymanrgab <aymanrar2c@gmail.com>
 Architecture: arm64
 Source: adaptation-samsung-a5y17lte
 Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
 Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte-configs_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
-Size: 7432
-MD5sum: 2fb931f868ee777832985a63661a80ea
-SHA1: 9fefc269d2c66b00f3677eccfac8f683d6b36f43
-SHA256: f8a29a8dee9b293726371ba98de5a9b9788bfae87008984553e20d7228e3b70c
-SHA512: f8d412fd78067462ef0d74c0ea12b7a6582d77a38472124c8afb784be09214ca5a57cabd3eb904636cd85a3542c5cfa05f83e3a45a4b43aefde459bb4f6451be
+Size: 8004
+MD5sum: 4e34247aeae9f85199501ecd97b08f9d
+SHA1: a1a4029a54d2452002e85062871873c569d355a2
+SHA256: 4612ff84772efea1896597f9926c020f77b173511f0453846519748247d62bd7
+SHA512: 6272c81cf80ae104753cb65287ce2319a460596b66cfc31f440bb57740eac9bcd63632fa74ec4e474296ec046fd7deff49e3ea18f64ddb86f3e535c390038a71
 Description: Community adaptation for samsung-a5y17lte - adaptation configurations
 
 Package: linux-bootimage-3.18-140-samsung-a5y17lte
