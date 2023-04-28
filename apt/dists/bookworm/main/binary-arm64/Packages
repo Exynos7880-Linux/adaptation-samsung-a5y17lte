@@ -4,48 +4,48 @@ Section: metapackages
 Installed-Size: 9
 Maintainer: aymanrgab <aymanrar2c@gmail.com>
 Architecture: arm64
-Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
-Depends: adaptation-hybris-api29-phone, adaptation-samsung-a5y17lte-configs (= 0.0.0+git20230423171904.cfa1bf9.bookworm)
-Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
-Size: 2124
-MD5sum: 557d3f85250e7676a013edb241d5a368
-SHA1: 94308c013486b65df8e293f3905872276400154d
-SHA256: 3487466a60f30312ea3a159ddff000b1e3bd9fda74ffdc8d7c1e9fe81387f8fb
-SHA512: 0870fed4c36f390362e03b0197c0c595b8c2c8153dd176f9ca31241a0b0a1558ce7ad6dff6888f0a0428abfb0b13d76fd0868bea86a2752b01a3eaddd158adf6
+Version: 0.0.0+git20230423171904.cfa1bf9.bookworm+git20230427123911.357ec6c.bookworm
+Depends: adaptation-hybris-api29-phone, adaptation-samsung-a5y17lte-configs (= 0.0.0+git20230423171904.cfa1bf9.bookworm+git20230427123911.357ec6c.bookworm)
+Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte_0.0.0+git20230423171904.cfa1bf9.bookworm+git20230427123911.357ec6c.bookworm_arm64.deb
+Size: 2244
+MD5sum: 6205e561f5041cc1e260b2b29539c5a5
+SHA1: cc07409968301222eb98fe665224eeaadc78e896
+SHA256: 16bcbe1971c541c5a7ec5d79519e5f6c4e51cfdb7b7ad7305d9631e349569c9a
+SHA512: 5bbeff54bbfe38ace1164f5e016de64926efe15c0ab774c9199e7771cac6639efdc7ec6bc0997f2b932919daaac5df8ccbee9bfe2755815c8899fdcecb51d1ca
 Description: Community adaptation for samsung-a5y17lte - metapackage
 
 Package: adaptation-samsung-a5y17lte-configs
 Priority: optional
 Section: metapackages
-Installed-Size: 64
+Installed-Size: 56
 Maintainer: aymanrgab <aymanrar2c@gmail.com>
 Architecture: arm64
 Source: adaptation-samsung-a5y17lte
-Version: 0.0.0+git20230423171904.cfa1bf9.bookworm
-Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte-configs_0.0.0+git20230423171904.cfa1bf9.bookworm_arm64.deb
-Size: 8004
-MD5sum: 4e34247aeae9f85199501ecd97b08f9d
-SHA1: a1a4029a54d2452002e85062871873c569d355a2
-SHA256: 4612ff84772efea1896597f9926c020f77b173511f0453846519748247d62bd7
-SHA512: 6272c81cf80ae104753cb65287ce2319a460596b66cfc31f440bb57740eac9bcd63632fa74ec4e474296ec046fd7deff49e3ea18f64ddb86f3e535c390038a71
+Version: 0.0.0+git20230423171904.cfa1bf9.bookworm+git20230427123911.357ec6c.bookworm
+Filename: pool/main/a/adaptation-samsung-a5y17lte/adaptation-samsung-a5y17lte-configs_0.0.0+git20230423171904.cfa1bf9.bookworm+git20230427123911.357ec6c.bookworm_arm64.deb
+Size: 7364
+MD5sum: ab135b63cd0ee3aede7af63fa0f3b76e
+SHA1: 93278c8c9dcbe249f0c13eaf4b250e9197589187
+SHA256: bd130b2b05367eb39952106a4ae05aba8f48fbe0d273dfb3dfe7004dd6e5121a
+SHA512: 211aff3dc8b9799ea9f92797221514d352ef76509d6286b4c328ed884cb4b637f15067bcc275be53a4626b34a3c5cef2a9a2767b9beaf7dfdd19db38360b8bbe
 Description: Community adaptation for samsung-a5y17lte - adaptation configurations
 
 Package: linux-bootimage-3.18-140-samsung-a5y17lte
 Priority: optional
 Section: kernel
-Installed-Size: 67761
+Installed-Size: 58653
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230425220242.4181a8b.bookworm)
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230428194123.2715c78.bookworm)
 Pre-Depends: flash-bootimage (>= 4)
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-bootimage-3.18-140-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 38929584
-MD5sum: e918e35eb0693e90b6b71df9419205b0
-SHA1: 8bb84a0f0cc810d692022b2cc6b7157ced00088e
-SHA256: 9bb7d8ffc390d53ea36aaa801d189e83ab1fc55fb778bb1baa6f995739dc24bb
-SHA512: 4c7e1b93212db539aac17bf1ca6c79eaba21c8dffad3bcca953d617fbf07d856c50f622324e7efef4c56801086a8c0376ff7527c661173c16bce6b829e336c6d
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-bootimage-3.18-140-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 35840644
+MD5sum: 3377797286a6a265a50e22ca6592fb2e
+SHA1: b3385118002200a3c17890a2b7f870bbf5aa26fa
+SHA256: 5687d7ccfec192a86da25fb352c9481cf09d87cb01163c4f714e2747b1a33f2e
+SHA512: 8a83e7a2ae99b4faa37142e2cfc63aa59b268237820d6643552238ab0ff6ae1603f66e3b5319ab4560b39355851df4fa0940feb0c536544bb866e9dbe85f8994
 Description: Linux kernel for Samsung A5 2017 - Android Boot Image
  This package contains the Linux kernel for the Samsung A5 2017 device.
  .
@@ -59,32 +59,32 @@ Installed-Size: 7
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Depends: linux-bootimage-3.18-140-samsung-a5y17lte (= 0.0.0+git20230425220242.4181a8b.bookworm)
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-bootimage-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 1252
-MD5sum: a00409c920ae3bc576b7112644c9f3cb
-SHA1: 6e6dbdf581a1720d5c338ef4eee4d3c3463ba09c
-SHA256: 3ad6f40058289576b59ecf99a8ce8743cf9efada77f6624a3cbf5ceb35fc490c
-SHA512: 27978d9aeead6c091a2e908d21ffa4e763b8331468515564034e1e43f3821319a37fc4691d6b720f4ed0992b06608bc21709700eed7f794124d0a1e69465e765
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Depends: linux-bootimage-3.18-140-samsung-a5y17lte (= 0.0.0+git20230428194123.2715c78.bookworm)
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-bootimage-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 1356
+MD5sum: a022c4621986e7771c129a509eceb784
+SHA1: 21d7ad9823d1dd3390d30feb4cfabb2485d7854a
+SHA256: 8db9b7e680a24a82a9ca792607854ab45b6e161d3236c912203a3b249408c14d
+SHA512: dd96f41849a80eb6b4f8c50205d74d997612261ff7d82e466f15de14d574c4a9d0c6aef987e6965ca9103faf954f1d1d2528b98ff0b97b4600314a1f5588c740
 Description: Linux kernel for Samsung A5 2017 - Android Boot Image  (latest)
  This package depends to the latest kernel bootimage available for the Samsung A5 2017.
 
 Package: linux-headers-3.18-140-samsung-a5y17lte
 Priority: optional
 Section: kernel
-Installed-Size: 43119
+Installed-Size: 42992
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230425220242.4181a8b.bookworm)
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-headers-3.18-140-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 6661748
-MD5sum: 3b29eeb1289c235616d1fbb047c95704
-SHA1: b40b03342f95d09b00c43307cdefcd30a22dce43
-SHA256: 867a6adbd6cc6ba0c013a23f6fb4ec490255722345ac604b4fd61b83bf55b016
-SHA512: 7af8703c67aa00a0017c5b28c5088815c6d9d20787b5f7972176837db7332822f44b5f83248df0e3b943b54000c0c07233192b0451dec895be94445c0df31598
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230428194123.2715c78.bookworm)
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-headers-3.18-140-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 6652096
+MD5sum: dc912791a382967a636f4e58f6665a25
+SHA1: eb8484d9a050c28079dc3f9127041916d9db6c68
+SHA256: 2d9149d1dd27d1e22a1e8ebf463f157df9fbe00248d1e3d5bd1b1f4e80c20c2b
+SHA512: 4d5c7b20448e9009e2b05c79b5b6150a3b9d32bb5d3e013a0654cd1e1e47fd5a8fee2a2f0c8ca2f24653e4abeb78ec34e7e58bf9699ff0fde870e9c801b90d9c
 Description: Linux kernel for Samsung A5 2017 - Headers
  This package contains the Linux kernel headers for the Samsung A5 2017 device.
 
@@ -95,31 +95,31 @@ Installed-Size: 7
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Depends: linux-headers-3.18-140-samsung-a5y17lte (= 0.0.0+git20230425220242.4181a8b.bookworm)
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-headers-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 1228
-MD5sum: 7c5f916385559c9ce34bd505048ed1d5
-SHA1: 898e49c4d61eaa20df1e988cf6de679c86c86130
-SHA256: 4d29f23a9cec2f0309863085588156665e8f8aee26374a0d689848adac2161a7
-SHA512: 69a3da1ce97179cd50f2d9583fcdafa5737c29ae62e619fd932d3589262f4a22182af5f9829682551777c5ff00484926669c31d2ee964d19412c965fd80951a5
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Depends: linux-headers-3.18-140-samsung-a5y17lte (= 0.0.0+git20230428194123.2715c78.bookworm)
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-headers-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 1332
+MD5sum: 15e65077f17f69d236450c59f07c2cc1
+SHA1: c78b43fb57f09e950d2f3252e78697202214ce3f
+SHA256: c85e5aa0fe01de48ff91aef8dce0ecc4ad3683b0e5a75e435ae1988b4ad0680f
+SHA512: f3aaa232d974e66c1be4f0c260762c49bb53175b93173db20ffaefa5201f7093c16abd61b085100737e604f9a6b32183b2629e0042ef09a413b69bac4b6a12dd
 Description: Linux kernel for Samsung A5 2017 - Headers (latest)
  This package depends to the latest kernel headers available for the Samsung A5 2017.
 
 Package: linux-image-3.18-140-samsung-a5y17lte
 Priority: optional
 Section: kernel
-Installed-Size: 26301
+Installed-Size: 27829
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-image-3.18-140-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 8116204
-MD5sum: 0014ee6e50fb3631e1a375857c6327db
-SHA1: f5c90ec0b16b93d7f66047ff8a7972662fb5354b
-SHA256: e3d350286d03ef319dc87a842eb4848070fbd81d0c20afe35d354a8eccf40410
-SHA512: 50d7887b61838f8ce37251a136d93e781789f80dce72d23f053f60900714a84240a111e455e28f6caf8932e690d3a7d4ec83f90dd62c1ade75e9a5a98128ef86
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-image-3.18-140-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 7731116
+MD5sum: 322234cdd2ff1a5f7b7226c623ae388f
+SHA1: 36dec74021ca0533a3b3e61d6fd4ee5aeefaee5e
+SHA256: bc85a088fcb9b2e6fe86df50c1cf1d0877a436571a12f1970781e82bbce52bd5
+SHA512: 87e3bd76e318bb25c088d71679db13e407adafa6ac89cb25b68c0e3354fcd721dcd87e010f2c2b1f5c72bc0a27cc7708ab0c8a327152667a0485aad6eb48aeca
 Description: Linux kernel for Samsung A5 2017
  This package contains the Linux kernel for the Samsung A5 2017 device.
  .
@@ -134,14 +134,14 @@ Installed-Size: 7
 Maintainer: Droidian porters <info@droidian.org>
 Architecture: arm64
 Source: linux-android-samsung-a5y17lte
-Version: 0.0.0+git20230425220242.4181a8b.bookworm
-Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230425220242.4181a8b.bookworm)
-Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-image-samsung-a5y17lte_0.0.0+git20230425220242.4181a8b.bookworm_arm64.deb
-Size: 1224
-MD5sum: 2590ed51a022500588ac32f8fdc6bacf
-SHA1: 1034c90a5dfbb042ac4735562ef9999864536d37
-SHA256: 47c488b5391b5b2494455457a6c9996e095fd764a7559a5a3fb65bd4a7eb384d
-SHA512: 93c49ef0a2c69a0a9e757318bcf1c56015bb16f454dfaa19fa6cc4e85179ff4e52f88577397da774e1c400778aac15c2a3572f2bb546a29226a742d0cb0923cb
+Version: 0.0.0+git20230428194123.2715c78.bookworm
+Depends: linux-image-3.18-140-samsung-a5y17lte (= 0.0.0+git20230428194123.2715c78.bookworm)
+Filename: pool/main/l/linux-android-samsung-a5y17lte/linux-image-samsung-a5y17lte_0.0.0+git20230428194123.2715c78.bookworm_arm64.deb
+Size: 1324
+MD5sum: 1ac1147331cf1e83a7fbbfe916665c84
+SHA1: ff2a8c6f8bb8b4b3b7d501dd526d1022437bbcec
+SHA256: 200ef0c3296cc5d75bed3e6fa8187439b40a3ca8a42197ce76f4f744f4470a8c
+SHA512: 2bdc4afca96a25a1a3f16e45311037bcc3e000d9b103920763ad3dcce8f9a5e28661800a893c1223bc943e3a984b5c86583a6f6068c70aabd04e568d3eba5bf1
 Description: Linux kernel for Samsung A5 2017 (latest)
  This package depends to the latest kernel image available for the Samsung A5 2017.
 

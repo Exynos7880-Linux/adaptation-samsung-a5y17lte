@@ -3,5 +3,3 @@
 %:
 	dh $@
 
-override_dh_installsystemd:
-	dh_installsystemd -padaptation-samsung-a5y17lte-configs --name=create-boot-symlink create-boot-symlink.service
